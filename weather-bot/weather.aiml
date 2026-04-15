@@ -1,0 +1,51 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- Greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I can give you weather updates. Ask me about a city.</template>
+  </category>
+
+  <!-- Chennai Weather -->
+  <category>
+    <pattern>WEATHER IN CHENNAI</pattern>
+    <template>Chennai is usually hot and humid. Temperature is around 30°C.</template>
+  </category>
+
+  <!-- Bangalore Weather -->
+  <category>
+    <pattern>WEATHER IN BANGALORE</pattern>
+    <template>Bangalore has a pleasant climate. Temperature is around 22°C.</template>
+  </category>
+
+  <!-- Delhi Weather -->
+  <category>
+    <pattern>WEATHER IN DELHI</pattern>
+    <template>Delhi experiences extreme weather. It may be around 35°C in summer.</template>
+  </category>
+
+  <!-- Mumbai Weather -->
+  <category>
+    <pattern>WEATHER IN MUMBAI</pattern>
+    <template>Mumbai is humid with chances of rain. Temperature is around 28°C.</template>
+  </category>
+
+  <!-- Generic Weather -->
+  <category>
+    <pattern>WEATHER IN *</pattern>
+    <template>Sorry, I don't have weather data for <star/>. Try another city.</template>
+  </category>
+
+  <!-- Asking capability -->
+  <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>I can tell you weather information for some cities.</template>
+  </category>
+
+  <!-- Exit -->
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Stay safe.</template>
+  </category>
+
+</aiml>
